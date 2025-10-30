@@ -1,4 +1,4 @@
-# static-code-analyzer
+# code-analyzer
 
 a lightweight C++ CLI tool that analyzes source code for unused variables and TODO/FIXME comments using regex based parsing. it scans `.cpp` and `.h` files to detect:
 - Unused variables
@@ -20,7 +20,7 @@ it’s built entirely from scratch using C++ and regex, no external parsing libr
 ## Project Structure
 
 ```
-static-code-analyzer/
+code-analyzer/
 ├── include/                
 │   ├── analyzer.hpp        # performs code checks
 │   ├── parser.hpp          # reads and extracts code info
@@ -34,10 +34,10 @@ static-code-analyzer/
 └── README.md           
 
 ```
+
 ## How to Use
 
 ```
-
 ./bin/codeanalyzer path/to/file.cpp
 
 ```
